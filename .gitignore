@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv-wsl/
+.env
+.DS_Store
+data/idioms.index
+data/idioms_metadata.pkl
+/google_creds
