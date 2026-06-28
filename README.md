@@ -1,4 +1,4 @@
-# CS510 Final Project — Idiom-Aware Chinese–English Translator
+# Idiom-Aware Chinese–English Translator
 
 A full-stack Chinese-to-English translation app with an idiom-aware explanation layer for Chinese idiomatic expressions (成语). The system translates user input, detects idioms in the original Chinese text, and presents enriched metadata such as English meanings, alternative translations, and example sentence pairs. The backend combines FastAPI, dictionary-based idiom span detection, FAISS-backed metadata generation, and a Node bridge to `@vitalets/google-translate-api`; the frontend provides an interactive React interface for translation output, highlighted idioms, and explanation cards.
 
